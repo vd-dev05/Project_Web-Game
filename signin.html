@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM_Signin</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/styleSignin.css" />
+    <link rel="stylesheet" href="/Reponsiveness/reponsiveSignin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="back-ground">
+      <header>
+      <div class="header_garena">
+        <div class="flex-reponsive"> <div class="header_garena-logo">
+          <h1>Garena</h1>
+          <img src="/img/images.png" alt="" />
+        </div>
+        <div class="header_garena-language">
+      
+
+          <i class="fa-solid fa-globe fa-xl"></i>
+        </div></div>
+       
+      </div>
+    </header>
+    <main>
+      <div class="form_singin">
+        <div class="block"> <h2>Đăng Kí</h2>
+        <form action="" id="newform" class="check_form">
+          <div class="form_singin-input">
+            <span><i class="fa-solid fa-star-of-life"></i></span>
+            <input
+              type="text"
+              id="username"
+              class="form-control"
+              placeholder="Tên truy cập"
+              required
+            />
+            <div class="invalid-feedback">
+              Tên người dùng không được để trống hoặc có khoảng trắng.
+            </div>
+          </div>
+          <div class="form_singin-input ">
+            <span><i class="fa-solid fa-star-of-life"></i></span>
+            <input
+              type="password"
+              id="password"
+              class="re-password password-input"
+              placeholder="Mật khẩu"
+              required
+            />
+            <button id="btnPassword">
+              <span
+                ><i class="fa-regular fa-eye btnPassword toggle-password"></i
+              ></span>
+            </button>
+            <div class="invalid-feedback">
+              Tối thiểu tám ký tự, ít nhất một chữ cái và một số.
+            </div>
+          </div>
+          <div class="form_singin-input">
+            <span><i class="fa-solid fa-star-of-life"></i></span>
+            <input
+              type="password"
+              id="re-password"
+              class="re-password password-input"
+              placeholder="Nhập lại mật khẩu"
+              required
+            />
+            <button id="btnPassword">
+              <span
+                ><i class="fa-regular fa-eye btnPassword toggle-password"></i
+              ></span>
+            </button>
+            <div class="invalid-feedback">
+              Mật khẩu nhập lại không khớp với mật khẩu đã nhập
+            </div>
+          </div>
+          <div class="form_singin-input">
+            <span><i class="fa-solid fa-star-of-life"></i></span>
+            <input type="email" placeholder="Email" id="email" required />
+            <div id="email-validation" class="invalid-feedback">
+              Vui lòng kiểm tra lại email.
+            </div>
+          </div>
+
+          <p>
+            Bằng cách nhấn Đăng Ký Ngay, bạn đồng ý với
+            <a href="https://contentgarena-a.akamaihd.net/legal/tos/tos_vn.html"
+              >Điều Khoản Dịch Vụ</a
+            >
+            và
+            <a href="https://contentgarena-a.akamaihd.net/legal/pp/pp_vn.html"
+              >Chính Sách Bảo Mật</a
+            >
+          </p>
+          <input type="submit" value="Đăng Kí Ngay" class="button" />
+       </div>
+        </form>
+      </div>
+    </main>
+    </div>
+    
+
+
+    </div>
+          <script src="./js/appsignin.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

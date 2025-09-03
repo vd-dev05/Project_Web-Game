@@ -1,0 +1,111 @@
+@media screen and (max-width: 800.98px) {
+
+  .header_garena {
+    max-width: auto;
+
+    border: none;
+    border-radius: 1px;
+    min-width: 100%;
+  }
+  .fa-globe {
+    display: none;
+  }
+  .form_singin {
+    max-width: auto;
+  }
+  #newform {
+    max-width: auto;
+  }
+  h1 {
+    display: block;
+    color: red;
+    margin-left: 80px;
+    font-weight: 700;
+  }
+  .header_garena-logo > img {
+    display: none;
+  }
+  select {
+    display: none;
+  } 
+  
+
+  @media screen and (max-width: 460px) {
+  
+    .header_garena {
+      
+      width: 375px;
+      height: 40px;
+      display: flex;
+      min-width: 100%;
+      } 
+       .fa-globe {
+       top: 25px;
+       right: auto;
+      }
+    .form_singin {
+      padding: 5px;
+      width: 375px;
+
+      margin: 10px 0px;
+    }
+    /* #newform {
+      max-width: 375px;
+      width: 100%;
+    } */
+    .fa-solid {
+      transform: none;
+    }
+    .fa-regular {
+      transform: none;
+    }
+     .fa-globe {
+    display: none;
+  }
+    .block {
+      height: 900px;
+      padding: 10px;
+      max-width: 350px;
+    }.header_garena-logo {
+      min-width: 50px;
+      margin-left: -100px;
+  
+    }
+    h1 {
+      display: block;
+      color: red;
+      margin-left: 100px;
+      font-weight: 700;   
+     
+    }
+    .invalid-feedback {
+      font-size: 12px;
+    }
+    #btnPassword {
+      transform: translate(190%, 15%);
+    }
+    .fa-star-of-life {
+      transform: translate();
+    }
+  }
+}
+@media screen and (max-width: 500.98px) {
+
+  .form_singin {
+    min-width: 100%;
+    margin: 10px auto;
+  }
+  .newform {
+    min-width: 500px;
+    max-width: 100%;
+  }
+  .block {
+    max-width: 100%;
+  
+  }
+
+  #btnPassword  {
+    position: absolute;
+    right: 80px;
+  }
+}

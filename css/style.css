@@ -1,0 +1,303 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url(../img/45398.png);
+  margin: 0px auto;
+  z-index: 2;
+  height: 100vh;
+}
+.garena_card {
+  display: flex;
+  justify-content: space-between;
+  max-height: 80px;
+
+  max-width: 900px;
+  margin: 0 auto;
+}
+.garena_card-logo {
+  transform: translate(0, 20%);
+}
+
+.garena_card-nav {
+  display: flex;
+  max-height: 100%;
+  width: 500px;
+  justify-content: space-around;
+  /* padding: 20px; */
+  font-size: 13px;
+}
+.card_nav1 {
+  padding: 20px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.card_nav1:hover {
+  background-color: lightgray;
+  max-height: 100%;
+  max-width: 250px;
+}
+.garena_card-avatar {
+  padding: 20px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.garena_card-main {
+  width: 900px;
+  background-color: white;
+  margin: 0px auto;
+  position: relative;
+  top: 50px;
+  height: 521px;
+  z-index: 1;
+}
+.garena_card-logo {
+  transform: translate(120);
+}
+
+.slider {
+  width: 900px;
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+}
+.slider {
+  width: 900px;
+  height: 100px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.slider .list {
+  position: absolute;
+  width: max-content;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  transition: 1s;
+}
+.slider .list img {
+  width: 900px;
+  max-width: 100vw;
+  height: 100px;
+  object-fit: cover;
+}
+.slider .buttons {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.slider .buttons button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff5;
+  color: #fff;
+  border: none;
+  font-family: monospace;
+  font-weight: bold;
+}
+.slider .dots {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.slider .dots li {
+  list-style: none;
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 20px;
+  transition: 0.5s;
+  opacity: 0.5;
+}
+.slider .dots li.active {
+  width: 30px;
+}
+
+#prev:hover {
+  background-color: lightslategray;
+}
+#next:hover {
+  background-color: #aaaaaa;
+}
+.garena_card-flexGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding: 10px;
+  min-height: 400px;
+  margin-right: 0px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgray;
+
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px #aaaaaa;
+}
+.box:hover {
+  cursor: pointer;
+  background-color: lavender;
+}
+.content {
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+.garena_card-footer {
+  background-color: #aaaaaa;
+  text-align: center;
+}
+.garena_card-avatar > button {
+  border: none;
+  height: 30px;
+  font-size: 20px;
+  background: none;
+  color: red;
+}
+.garena_card-main {
+  position: relative;
+}
+
+.form-garena {
+  top: 100px;
+  left: 0px;
+  position: absolute;
+  z-index: 10;
+  border: none;
+  display: none;
+  width: 900px;
+  background-color: darkgray;
+  color: white;
+}
+th {
+  border: 1px solid lightgrey;
+}
+td {
+  border: 1px solid lightgrey;
+  padding: 10px;
+}
+input[type="radio"] {
+  color: red;
+  margin-right: 5px;
+}
+
+.form-garena {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 5px;
+}
+form {
+  display: none;
+}
+.flex-1 {
+  max-height: 300px;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.flex-1 > input {
+  background-color: white;
+  height: 30px;
+  border: none;
+  color: black;
+}
+.flex-1 > input[type="button"] {
+  background-color: #d43831;
+  color: white;
+}
+table {
+  height: 400px;
+  width: 450px;
+  padding: 20px;
+}
+#maThe {
+  padding-left: 10px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Định nghĩa hiệu ứng cho nút "Xác Nhận" */
+@keyframes scaleUp {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* Hiển thị thông báo và nút "Xác Nhận" */
+#thongBao {
+  display: none;
+  padding: 10px;
+  background-color: #5cb85c;
+  color: white;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* CSS cho nút "Xác Nhận" */
+.card_change.flex-1 input[type="button"] {
+  background-color: #d43831;
+  color: white;
+  animation: scaleUp 0.2s ease-in-out;
+  transition: background-color 0.2s;
+}
+
+.card_change.flex-1 input[type="button"]:hover {
+  background-color: #b0302b;
+}
+/* .form-garena {
+  position: relative;
+} */
+#closeForm {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  position: absolute;
+  top: -10px;
+  left: 0px;
+  height: 30px;
+  width: 50px;
+}
+
+#closeForm:hover {
+  background-color: #c9302c;
+}
+.remove {
+  font-size: 1px;
+}
+#garenaForm {
+  display: none;
+}

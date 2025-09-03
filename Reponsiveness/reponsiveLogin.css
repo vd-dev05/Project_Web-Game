@@ -1,0 +1,44 @@
+@media (max-width:414px) {
+.form_layout-Login {
+  
+    max-width: 414px;
+}
+input {
+    font-size: 11px;
+}
+#logo  {
+    display: none;
+    
+}
+.link {
+    text-wrap: nowrap;
+}
+.invalid-feedback {
+    font-size: 10px;
+}
+}
+@media (min-width:415px) and (max-width:768px) {
+.header_garena {
+    display: none;
+}
+.link {
+   text-wrap: nowrap;
+}
+}
+@media (min-width:769px ) and (max-width:1024px) {
+
+.link {
+    text-wrap: nowrap;
+}
+.header_garena {
+    max-width: 1024px;
+}
+body {
+    width: 1024px;
+max-height: 900px;
+background-repeat: no-repeat;
+}
+#logo  {
+    display: none;
+}
+}

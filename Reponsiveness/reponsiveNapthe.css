@@ -1,0 +1,264 @@
+
+ 
+
+@media screen and (max-width:414px) {
+    .form-garena  {
+        width: 414px;
+    }
+    
+  .garena_card {
+   
+  }
+    .slider {
+        background-color: aqua;
+       max-width: 414px;
+        height: 100px;
+       margin-right: 200px;
+    }
+    .garena_card-flexGrid {
+    display: grid;
+    grid-template-columns: repeat(1  ,  1fr   1fr   );
+    /* grid-gap: 2 0px;
+    gap: 20px; */
+  
+  }
+  .garena_card-main {
+    max-width: 414px;
+  }
+  ._2snGchWsjFpMyNZLH-C5ri {
+    width: 70px;
+  }
+  .item_slider {
+    height: 10px;
+  }
+  .box {
+   max-width: 170px;
+}
+.garena_card {
+    display: flex;
+    
+}
+.garena_card-logo {
+    display: none;
+}
+.reponsive_card{
+    font-size: 12px;
+    
+} h2 {
+    display: none;
+}
+#avatar_repon { 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100px;
+    background-image: url(/img/download.png);
+   
+
+}
+#avatar_repon:hover {
+    cursor: pointer;
+}
+.form-garena {
+    display: flex;
+    flex-direction: column;
+}
+table {
+    width:100% ;
+   
+}
+.card_change.flex-1 {
+    height: 400px;
+}
+}
+@media (min-width:415px ) and (max-width:768px) {
+
+    body {
+        max-height: 500px;
+    }
+    .background_nav {
+       width: auto;
+       height: 50px;
+    }
+    .background {
+        height: 700px;
+    }
+    .garena_card-main {
+        max-width: 767px;
+      
+    }
+    .garena_card-flexGrid {
+
+        width: 767px;
+        max-width: 100%;
+          .garena_card-flexGrid {
+    display: grid;
+    grid-template-columns: repeat(3 ,  1fr  1fr  );
+    /* grid-gap: 2 0px;
+    gap: 20px; */
+    margin-left: 20px;
+  }
+    }
+ .form-garena {
+    width: 100px;
+    left: 8px;
+    font-size: 14px;
+  
+    border: none;
+    z-index: 1;
+       width: 755px;
+   
+    background-color: darkgray;
+  
+
+
+ }
+input[type="button"] {
+    max-width: 250px;
+}
+input[type="text"] {
+    max-width: 250px;
+}
+#thongBao {
+   
+    font-size: 13px;
+max-width: 250px;
+text-wrap: nowrap;
+}
+    .slider {
+        width: 760px;
+
+        height: 100px;
+        max-width: 100%;                                                                                                                                                                                                                                                                                
+    }.list  {
+        max-height: 100px;
+      
+    }
+    .slider .buttons  {
+        transform: translate(0,-150px);
+    }
+    .dots {
+        transform: translate(0,-250px);
+    }
+    .content {
+
+    }
+    
+
+@media screen and (max-width: 768px) {
+  /* CSS for small screens */
+
+  .garena_card-flexGrid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    width: 50%;
+    padding: 10px;
+  }.garena_card-logo {
+    display: none;
+    
+}
+.card_nav1 {
+    width: 60px ;
+    height: 50px;
+    font-size: 10px    ;
+    text-wrap: nowrap;
+}
+#garenaForm {
+    position: absolute;
+    top: 0px;
+}
+
+.card_table {
+  
+}
+.garena_card {
+    display: flex;
+}
+.reponsive_card {
+    font-size: 15px;
+    transform: translate(0,-6px);
+}
+.garena_card-flexGrid {
+
+      
+        min-width: 768px; }
+          .garena_card-flexGrid {
+    display: grid;
+    grid-template-columns: no-repeat( 2,  1fr  1fr   );
+    margin-left: 60px;
+  }
+ }
+}
+@media (min-width:769px) and (max-width:1024px) {
+
+    body {
+        max-width: 1024px;
+        max-height: 500px;
+    }
+    .background_nav {
+       width: auto;
+       height: 50px;
+    }
+    .background {
+        width: auto;
+        height: 700px;
+    }
+     .form-garena {
+
+     top: 100px;
+  left: 0px;
+  position: absolute;
+  z-index: 10;
+  border: none;
+  
+  min-width: 768px;
+  
+  color: white;
+
+}
+  
+
+
+ /* }
+    .garena_card-flexGrid {
+
+        width: 900px;
+        max-width: 100%;
+          .garena_card-flexGrid {
+    display: grid;
+    grid-template-columns: repeat( 3,  1fr  1fr  );
+    
+  } */
+} 
+
+/* @media (max-width:1920px ) {
+    body {
+        max-width: 1920px;
+        max-height: 500px;
+    }
+    .background_nav {
+       width: auto;
+       height: 50px;
+    }
+    .background {
+        width: auto;
+        height: 700px;
+    }
+     .form-garena {
+
+    left: 60px;
+    font-size: 14px;
+        top: 220px;
+    border: none;
+    z-index: 1;
+       width: 910px;
+       
+    background-color: green;
+  
+
+
+ }
+} */
